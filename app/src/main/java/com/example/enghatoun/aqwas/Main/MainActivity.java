@@ -25,6 +25,9 @@ String previous="null";
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
+
+
         CreateFragment(new FirstFragment());
         initListeners();
         setNavigationDrawer(); // call method
