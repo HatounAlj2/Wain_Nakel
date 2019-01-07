@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.enghatoun.aqwas.Main.Second.SecondFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_marginBottom="10dp"
+        android:layout_width="170dp"
+        android:layout_height="135dp"
+        app:srcCompat="@drawable/wain_nakel" />
+
+        <TextView
+            android:layout_width="334dp"
+            android:layout_height="99dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Wain nakel provides highly rated resturants suggestions for when you're not sure where to eat"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="335dp"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="WWW.WainNakel.com"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="337dp"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="  @WainNakel"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:layout_width="331dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+
+            android:text="All Rights Reserved © 2016"
+            android:textSize="15sp" />
+    </LinearLayout>
+</FrameLayout>
